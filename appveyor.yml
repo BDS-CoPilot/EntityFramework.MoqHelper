@@ -1,7 +1,7 @@
 version: 1.0.{build}
 image: Visual Studio 2017
 before_build:
- - appveyor-retry dotnet restore -v Minimal
+- cmd: nuget restore
 build:
   verbosity: minimal
 on_success:
