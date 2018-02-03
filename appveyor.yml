@@ -3,6 +3,7 @@ image: Visual Studio 2017
 before_build:
 - cmd: nuget restore
 build:
+  publish_nuget: true
   verbosity: minimal
 on_success:
 - curl -s -o copilot https://copilot.blackducksoftware.com/ci/appveyor/scripts/upload
