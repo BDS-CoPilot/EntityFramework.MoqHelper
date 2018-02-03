@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/hk3yxg2i6y36je32?svg=true)](https://ci.appveyor.com/project/baderbuddy/entityframework-moqhelper)
+
 # EntityFramework.MoqHelper
 Helper methods to work with Entity Framework 6.* and Moq libraries doing mocks of Entity Framework main methods that access database.
 
